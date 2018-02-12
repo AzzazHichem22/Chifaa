@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_traitement_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.mymobileapplication1.Traitement_Activity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Traitement1"
+           app:srcCompat="@drawable/medicaments" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/line" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/imageView23"
+            android:layout_weight="0.16" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:srcCompat="@drawable/médic1"
+                android:scaleType="fitXY"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView14"
+                android:layout_width="70dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="Chaque comprimé contient 50 mg de sitagliptine et 1 000mg de chlorhydrate de metformine. Une dose habituelle est d'un comprimé, deux fois par jour."
+                android:layout_height="67dp"
+
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <ImageView
+                app:srcCompat="@drawable/médic2"
+                android:scaleType="fitXY"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView15"
+                android:layout_width="70dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="Les comprimés contiennent 15 mg de pioglitazone et 850 mg de chlorhydrate de metformine. Une dose habituelle est d'un comprimé à prendre deux fois par jour, à avaler avec de la nourriture."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/médic3"
+                android:id="@+id/imageView20"
+                android:layout_width="70dp" />
+
+            <TextView
+                android:text="Les comprimés contiennent 15 mg de pioglitazone et 850 mg de chlorhydrate de metformine. Une dose habituelle est d'un comprimé à prendre deux fois par jour, à avaler avec de la nourriture."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_height="2dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/line1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.mymobileapplication1.HomePage"
+    tools:showIn="@layout/app_bar_home_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:baselineAligned="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            app:srcCompat="@android:drawable/screen_background_light"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView6" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_weight="0.09">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:id="@+id/Rappel"
+                android:background="@drawable/rap1"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RDV"
+                android:layout_weight="1"
+                android:background="@drawable/rap" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:id="@+id/button7"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Rappel"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Rendez-Vous"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.50">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Prélèvemenet"
+                android:layout_weight="1"
+                android:background="@drawable/prel" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DossierMedical"
+                android:layout_weight="1"
+                android:background="@drawable/dm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Prélèvement"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Dossier Médical"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.50">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Prélèvemenet"
+                android:layout_weight="1"
+                android:background="@drawable/incident" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DossierMedical"
+                android:layout_weight="1"
+                android:background="@drawable/medicaments" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Signaler Incident"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Voir Traitement"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/Project1Color2"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

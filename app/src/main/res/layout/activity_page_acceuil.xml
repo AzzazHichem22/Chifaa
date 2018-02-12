@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page_acceuil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.mymobileapplication1.PageAcceuil">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/banner1"
+            android:id="@+id/Background1"
+            android:layout_weight="7.56" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/background1"
+            android:id="@+id/im1"
+            android:background="@color/Project1Color2"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="7.56" />
+
+    </LinearLayout>
+
+    <ImageView
+        app:srcCompat="@drawable/www"
+        android:scaleType="fitXY"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView3"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:layout_weight="7.56"
+        android:layout_alignBottom="@+id/VisitWeb"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="17dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/message"
+        android:layout_width="25dp"
+        android:scaleType="fitXY"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView1"
+        android:layout_height="25dp"
+        android:layout_weight="7.56"
+        android:layout_alignBottom="@+id/SendMessage"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="17dp" />
+
+    <ImageView
+            app:srcCompat="@drawable/tel"
+            android:layout_width="25dp"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView2"
+            android:layout_height="25dp"
+            android:layout_weight="7.56"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_above="@+id/SendMessage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:id="@+id/SendMessage"
+        android:layout_weight="0.63"
+        style="@style/ButtonStyle"
+        android:elevation="0dp"
+        android:text="Envoyez-Nous un Message"
+        android:textSize="20sp"
+        android:textColor="@color/Project1Color"
+        android:fontFamily="serif"
+        android:textAllCaps="false"
+        android:layout_below="@+id/callus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:layout_height="55dp"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+    android:cropToPadding="false"
+    android:scaleType="fitXY"
+    android:id="@+id/callus"
+    android:layout_weight="0.63"
+        style="@style/ButtonStyle"
+        android:elevation="0dp"
+        android:text="Appelez-Nous"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/Project1Color"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="55dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/background1"
+        android:id="@+id/imageView9"
+        android:scaleType="fitXY"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="180dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="Sign in "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        style="@style/ButtonStyle"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView10" />
+
+    <ImageView
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logosolution"
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_above="@+id/im1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+
+        app:srcCompat="?android:attr/homeAsUpIndicator"
+        android:scaleType="fitXY"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignBottom="@+id/SendMessage"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignBottom="@+id/callus"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignBottom="@+id/VisitWeb"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:id="@+id/VisitWeb"
+        android:layout_weight="0.63"
+        style="@style/ButtonStyle"
+        android:elevation="0dp"
+        android:text="Visitez Notre Site"
+        android:textSize="20sp"
+        android:textColor="@color/Project1Color"
+        android:fontFamily="serif"
+        android:textAllCaps="false"
+        android:layout_height="55dp"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:text="Votre santé nous est précieuse "
+        android:textColor="?android:attr/fastScrollTextColor"
+        android:id="@+id/textView"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:layout_weight="3.19"
+
+        android:textStyle="normal|italic"
+        android:layout_above="@+id/callus"
+        android:layout_marginBottom="36dp" />
+
+</RelativeLayout>

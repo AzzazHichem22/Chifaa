@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_rdv_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.mymobileapplication1.Rdv_Activity"
+    tools:showIn="@layout/app_bar_rdv_">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            app:srcCompat="@drawable/rap"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Prelevement" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Blanc1" />
+
+        <TextView
+            android:text="Voici votre liste des RDV"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:id="@+id/textView3"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textColor="@color/Project1Color" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+                    android:id="@+id/imageView7" />
+
+                <TextView
+                    android:text="   RDV avec Dr.Chergui  09/06 à 11:00 "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView33"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+                   />
+
+                <TextView
+                    android:text="   RDV avec Dr.Chergui 20/06 à 09:00 "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+                 />
+
+                <TextView
+                    android:text="   RDV avec Dr.Chergui  27/07 à 11:00 "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+                    />
+
+                <TextView
+                    android:text="   RDV avec Dr.Belhiwani 15/07 à  08:00 "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</RelativeLayout>

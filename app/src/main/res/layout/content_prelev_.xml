@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_prelev_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.mymobileapplication1.Prelev_Activity"
+    tools:showIn="@layout/app_bar_prelev_">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            app:srcCompat="@drawable/prel"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Prelevement" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView12" />
+
+        <TextView
+            android:text="Veuillez saisir un prélèvement..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.13"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textColor="@color/Project1Color" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:id="@+id/L1">
+
+            <Button
+                android:text="Prise de Glycémie"
+                android:layout_height="match_parent"
+                android:id="@+id/Glyc"
+                android:background="@color/Project1Color2"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_width="180dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_weight="1"
+                android:fontFamily="serif" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:layout_centerHorizontal="true"
+
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:id="@+id/L2">
+
+            <Button
+                android:text="Prise de Tension"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Tension"
+                android:background="@color/Project1Color2"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+            android:scaleType="fitXY"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+
+            <ImageView
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+                android:scaleType="fitXY"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/Blanc1"
+                android:layout_weight="1.62" />
+
+            <ImageView
+                app:srcCompat="@drawable/background1"
+                android:id="@+id/imageView9"
+                android:scaleType="fitXY"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@color/common_google_signin_btn_text_dark_default"
+                android:scaleType="fitXY"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imageView11"
+                android:layout_weight="1.62" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:text="Envoyer Resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Envoyer"
+        style="@style/ButtonStyle"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textAllCaps="false"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

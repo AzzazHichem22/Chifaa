@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_etat" type="drawable">@android:drawable/ic_menu_view</item>
+    <item name="ic_menu_deconnexion" type="drawable">@android:drawable/ic_lock_power_off</item>
+    <item name="ic_menu_acceuil" type="drawable">@android:drawable/ic_menu_revert</item>
+    <item name="ic_menu_parametre" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_aide" type="drawable">@android:drawable/ic_menu_info_details</item>
+
+</resources>

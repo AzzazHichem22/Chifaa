@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_etat"
+            android:icon="@drawable/ic_menu_etat"
+            android:title="Etat" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_menu_acceuil"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_param"
+            android:icon="@drawable/ic_menu_parametre"
+            android:title="Paramètres" />
+        <item
+            android:icon="@drawable/ic_menu_aide"
+            android:title="Aide et commentaires"
+            android:id="@+id/nav_aide" />
+        <item android:title="Deconnexion"
+            android:icon="@drawable/ic_menu_deconnexion"
+            android:id="@+id/nav_dec"></item>
+    </group>
+
+</menu>
